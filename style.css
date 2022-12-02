@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20, 220, 63), rgb(17, 71, 51));
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    width: 50%;
+}
+.inputBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+fieldset{
+    border: 3px solid rgb(30, 255, 169);
+}
+legend{
+    border: 1px solid rgb(22, 186, 87);
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(22, 186, 87);
+    border-radius: 8px;
+}
+#submit{
+    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    width: 70%;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+}
+#input{
+    width: 70%;
+}
+#legend{
+    font-size: 15px;
+}
+#legend1{
+    font-size: 14px;
+}
+@media (max-width: 460px) {
+    body {                
+        font-size: 75%;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(to right, rgb(20, 220, 63), rgb(17, 71, 51));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+    fieldset {
+        padding: 32px 0px;
+        width: 100%;
+
+    }
+
+    .box {
+        padding: 16px;
+        
+    }
+
+
+}
